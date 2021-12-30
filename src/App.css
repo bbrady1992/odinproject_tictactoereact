@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  outline: 1px solid black;
+  line-height: 100px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#gameboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 5px solid black;
+  text-align: center;
+  width: 300px;
+}
+
+#gameboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
